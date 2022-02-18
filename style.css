@@ -17,6 +17,24 @@ header {
   z-index: 1;
 }
 
+h1 {
+  margin-bottom: 0;
+  max-width: 538px;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 72px;
+}
+
+p {
+  margin-top: 34px;
+  margin-bottom: 0px;
+  max-width: 449px;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+}
+
 .logo-and-links {
   display: flex;
   align-items: center;
@@ -71,24 +89,6 @@ header {
   position: absolute;
   top: 0;
   padding: 130px 300px;
-}
-
-h1 {
-  margin-bottom: 0;
-  max-width: 538px;
-  color: white;
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 72px;
-}
-
-p {
-  margin-top: 34px;
-  margin-bottom: 0px;
-  max-width: 449px;
-  color: white;
-  font-size: 20px;
-  line-height: 26px;
 }
 
 .get-started {
