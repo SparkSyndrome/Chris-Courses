@@ -106,3 +106,15 @@ p {
   border: none;
   border-radius: 5px;
 }
+
+@media (max-width: 967px) {
+  /* Add Hamburger Menu */
+}
+
+@media (max-width: 928px) {
+  /* Fix Background Video Scaling Issue */
+}
+
+@media (max-width: 640px) {
+  /* General Media Query for Mobile Optimization */
+}
