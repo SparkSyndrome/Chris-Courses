@@ -1,25 +1,36 @@
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0;
+            background-color: #121826;
+            font-family: "Lato", sans-serif;
+        }
+    </style>
 </head>
-<header>
-    <div class="logo-and-links">
+<header class="max-w-7xl flex py-[18px] px-3 mx-auto justify-between items-center relative z-10">
+    <div class="flex items-center">
         <img src="./logo.svg" alt="Chris Courses Logo">
-        <a href="" style="margin-left: 60px;">Pricing</a>
-        <a href="">Courses</a>
-        <a href="">Blog</a>
-        <a href="">Forum</a>
+        <a href="" class="text-white py-2.5 px-5" style="margin-left: 60px;">Pricing</a>
+        <a href="" class="text-white py-2.5 px-5">Courses</a>
+        <a href="" class="text-white py-2.5 px-5">Blog</a>
+        <a href="" class="text-white py-2.5 px-5">Forum</a>
     </div>
-    <div class="login-and-signup">
-        <a href="">Login</a>
-        <button class="sign-up-button">Sign Up</button>
+    <div class="flex items-center">
+        <a href="" class="p-5 m-2.5 text-white">Login</a>
+        <button class="py-3 px-7 text-white bg-[#439d98] rounded-[56px] text-sm font-bold leading-[17px] tracking-wider uppercase">Sign Up</button>
     </div>
 </header>
-<section class="hero">
-    <video loop="loop" autoplay="autoplay" playsinline="" muted="muted" style="min-height: 550px;" src="./videos/galaxy.mp4"></video>
-    <div class="hero-text">
-        <h1>Turbocharge your <span style="color: #90CAC7">development career</span></h1>
-        <p>Chris Courses provides students and professionals a college-level web development education.</p>
-        <button class="get-started">Get started</button>
+<section class="relative">
+    <video class="w-full min-h-[689px] top-[-160px] absolute object-cover" loop="loop" autoplay="autoplay" playsinline="" muted="muted" style="min-height: 550px;" src="./videos/galaxy.mp4"></video>
+    <div class="max-w-7xl py-[18px] px-3 m-auto relative">
+        <h1 class="mb-0 max-w-[538px] text-white text-6xl font-bold leading-[72px]">Turbocharge your <span style="color: #90CAC7">development career</span></h1>
+        <p class="mt-[34px] mb-0 max-w-md text-white text-xl">Chris Courses provides students and professionals a college-level web development education.</p>
+        <button class="py-3 px-7 mt-[34px] text-[#539d98] bg-white text-lg rounded-md">Get started</button>
     </div>
 </section>
